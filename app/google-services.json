@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "989762852289",
+    "project_id": "smpa-7694d",
+    "storage_bucket": "smpa-7694d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:989762852289:android:5f1f930dcef848c4320b40",
+        "android_client_info": {
+          "package_name": "com.cursoandroid.meulocalizador"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "989762852289-9skfgu3crir8bc73uiimqm0v1r4526cg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cursoandroid.meulocalizador",
+            "certificate_hash": "a2b6f039bebdce385051efbf8cfadf29d64844bc"
+          }
+        },
+        {
+          "client_id": "989762852289-t6ftq2572i98b3523mibh9atk9se98ng.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlvumNkf-aTpz5sLKgtr8UVwi6nBSsX3Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "989762852289-t6ftq2572i98b3523mibh9atk9se98ng.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Meu Localizador</string>
+    <string name="app_name">SMPA</string>
     <string name="listar">Listar localizações</string>
     <string name="acessar">Acessar localização</string>
     <string name="item_text">LATITUDE E LONGITUDE</string>
