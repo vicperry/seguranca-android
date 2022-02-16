@@ -17,11 +17,5 @@ class ListaActivity : AppCompatActivity() {
         val locaisLista = getExternalFilesDir(null)!!.list()
         listaItems.adapter = ArrayAdapter(this, R.layout.simple_list_item_1, locaisLista!!.toList())
 
-        listaItems.setOnItemClickListener { parent, view, position, id ->
-            val localizacao = "local"
-
-
-            Toast.makeText(this, localizacao, Toast.LENGTH_SHORT).show()
-        }
     }
 }

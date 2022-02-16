@@ -81,13 +81,13 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    private val locationListener =
+    val locationListener =
         object : LocationListener {
             override fun onLocationChanged(location: Location) {
                 val hora = Calendar.getInstance().time
                 val formatarData = SimpleDateFormat("HH_mm_ss-dd_MM_yyyy")
-                val fileName = formatarData.format(hora) + ".crd"
                 val local = "${location.latitude} ${location.longitude}"
+                val fileName = "Latitude_" + "${location.latitude}_"+ "Longitude_"+"${location.longitude}_"+ "Hora_e_Data_" + formatarData.format(hora) + ".crd"
 
                 try {
                     if (
